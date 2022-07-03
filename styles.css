@@ -1,0 +1,76 @@
+body{
+  background-color: #ADCF9F;
+}
+.container-fluid{
+  padding: 3% 12% 3%;
+}
+.navbar-brand{
+  font-family: "ubuntu";
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+.nav-item{
+  padding: 0 18px;
+}
+.nav-link{
+  font-size: 1.2rem;
+  font-family: "Montserrat-Light";
+}
+
+.content-holder{
+    padding-left: 4%;
+  background-color:#D3EECD ;
+}
+.recommended-blogs{
+   background-color: #E4E9BE;
+    padding-left: 2%;
+}
+#content{
+    padding: 3% 10%;
+}
+#recommendations{
+    padding: 3% 10%;
+}
+.recommendation-heading{
+    text-align: left;
+    font-size: 1.75rem;
+    margin-bottom: 4%;
+    margin-left: 3%;
+}
+.recommendation-image{
+    width: 100%;
+    height: 100%;
+}
+.row{
+    margin-bottom: 3%;
+}
+.bg-color{
+    padding: 2% 0;
+    background-color: antiquewhite;
+    margin-left: 3%;
+}
+hr{
+    
+    border-style:none;
+    border-top-style: dotted;
+    border-color: azure;
+    border-width: 5px;
+    width: 5%;
+}
+#footer{
+  text-align: center;
+  padding: 5% 17% 8%;
+
+}
+.logos{
+  margin:20px 10px ;
+}
+.backendimage{
+  width: 120%;
+}
+@media (max-width : 992px){
+  .backendimage{
+    width: 100%;
+  }
+}
